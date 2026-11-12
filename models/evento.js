@@ -31,7 +31,7 @@ let eventoSchema = new mongoose.Schema({
         required: true
     },
     entradas: [{
-        type: Entrada,
+        type: entradaSchema,
         required: false
     }],
     recinto: {
