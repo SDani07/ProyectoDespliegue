@@ -1,5 +1,5 @@
 import express from 'express';
-import Recinto from '../models/recinto.jd';
+import Recinto from '../models/recinto.js';
 
 let router = express.Router();
 
