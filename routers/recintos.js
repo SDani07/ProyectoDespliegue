@@ -1,8 +1,5 @@
 import express from 'express';
-import mongoose from 'mongoose';
-import Evento from '../models/evento';
-import Recinto from '../models/recinto';
-mongoose.connect("");
+import Recinto from '../models/recinto.jd';
 
 let router = express.Router();
 
