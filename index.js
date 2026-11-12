@@ -4,8 +4,8 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-import eventos from '/routers/eventos.js';
-import recintos from '/routers/resintos.js';
+import eventos from './routers/eventos';
+import recintos from './routers/recintos';
 
 mongoose.connect(process.env.MONGODB_URI);
 

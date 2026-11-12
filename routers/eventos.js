@@ -1,8 +1,5 @@
 import express from 'express';
-import mongoose from 'mongoose';
 import Evento from '../models/evento';
-import Recinto from '../models/recinto';
-mongoose.connect("");
 
 let router = express.Router();
 
@@ -149,4 +146,4 @@ router.put('/entradas/:idEvento/:tipoEntrada/:cantidad', async (req, res) => {
     });
 });
 
-module.exports = router;
+export default router;
